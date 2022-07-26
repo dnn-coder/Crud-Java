@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class conexion {
-    String strConexionDB = "jdbc:sqlite:C:/Users/DannyVivas/Documents/crudJava.s3db";
+    String strConexionDB = "";
     Connection conn = null;
     
     public conexion() {
